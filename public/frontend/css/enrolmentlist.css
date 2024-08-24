@@ -1,0 +1,60 @@
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
+.x_panel {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+table {
+    width: 100%;
+    font-size: 0.8rem;
+    color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+tr {
+    border-bottom: 0.1rem solid rgb(243, 238, 238);
+}
+
+td {
+    padding: 10px;
+}
+
+.form-button {
+    text-align: center;
+    font-size: 10px;
+}
+.form-button a {
+    font-size: 0.8rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+}
+
+.download a {
+    font-size: 0.7rem;
+}
+
+.mdown {
+    margin-bottom: 2rem;
+}
+.mdown-s {
+    margin-bottom: 1rem;
+}
+.passport {
+    width: 100%;
+    text-align: center;
+}
+.passport img {
+    width: 6rem;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.5rem 40rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 1.6rem;
+    font-family: "Lato", sans-serif;
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(83, 109, 254, 0.5),
+            rgba(48, 63, 159, 0) 95%
+        ),
+        url(../img/congrat.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100%; */
+}
+
+.header-image img {
+    width: 20%;
+}
+
+.heading-secondary {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #4f72b3, #0e2694);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+. .heading-tertiary {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #4f72b3, #0e2694);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.form-input {
+    font-size: 25px;
+    text-align: center;
+    font-family: inherit;
+    padding: 15px 0px;
+    border-color: rgba(white, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    /* letter-spacing: 3px; */
+    width: 100%;
+    display: inline-block;
+}
+
+.form-input:focus {
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* border-bottom: linear-gradient (to right, #4f72b3, #0e2694); */
+    border-bottom: 3px solid #0e2694;
+}
+
+.form-input:focus:invalid {
+    border-bottom: 3px solid #ff7730;
+}
+
+.form-input::-webkit-input-placeholder {
+    color: #777;
+}
+
+.form-label {
+    font-size: 25px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #4f72b3, #0e2694);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translateY(-110px);
+
+    /* margin-left: 20px; */
+    /* margin-top: 7px; */
+    display: block;
+    transition: all 0.3s;
+}
+
+.form-input:placeholder-shown + .form-label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-32px);
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    background-image: linear-gradient(to right, #4f72b3, #0e2694);
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 100px;
+    border: none;
+    font-weight: 500;
+    -webkit-backface-visibility: hidden;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn i {
+    font-size: 1.6rem;
+}
+
+.page-body {
+}
+.center {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+.won {
+    color: #03126f;
+}
+.tek {
+    color: #e88834;
+}
+
+.tek,
+.won {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.power {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+}
+
+.power .pow {
+    font-style: italic;
+}
+.text-danger {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.notice h3 {
+    text-transform: uppercase;
+    font-size: 1.6rem !important;
+    color: #e57373;
+    text-decoration: underline;
+}
+.inline {
+    color: #e57373;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+.mdown {
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 1235px) {
+    .heading-secondary {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .heading-secondary {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        font-weight: 600;
+        background-image: linear-gradient(to right, #4f72b3, #0e2694);
+        display: inline-block;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    body {
+        padding: 1.5rem 30rem;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+    .notice h3 {
+        font-size: 1.4rem !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    body {
+        padding: 1rem 10rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        padding: 1rem 10rem;
+    }
+}
+@media screen and (max-width: 475px) {
+    body {
+        padding: 0;
+    }
+}

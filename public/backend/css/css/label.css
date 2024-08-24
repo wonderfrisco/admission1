@@ -1,0 +1,20 @@
+.label-avail {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.label-primary {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.label-success {
+    background-color: #3e8e41;
+    color: #fff;
+}
+
+label-danger {
+    background-color: #ff0000; /* change background color to bright red */
+    color: #000; /* change text color to black */
+}
